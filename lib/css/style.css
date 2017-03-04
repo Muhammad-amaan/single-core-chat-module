@@ -1,0 +1,151 @@
+.main-header{
+	color: #fff;
+    background-color: #205081;
+    border-color: rgba(0,0,0,0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 2222;
+    box-shadow: 0px 1px 4px #000;
+    xborder-bottom: 1px solid #183858;
+    background: #0083dc;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(2, 112, 183, 0.68));
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.25), 0 2px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 83, 138, .6), inset 0 0 0px 1px rgba(255,255,255,.15);	
+}
+.main-header .navbar .nav>li>a>.label {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 5px;
+    line-height: .9;
+    border-radius: 100px;
+}
+
+.button{
+  display: inline-block;
+}
+.button-md{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 15px;
+}
+.button-lg{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 18px;
+    font-size: 20px;
+}
+.button-sm{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 2px 12px;
+}
+.button-positive{
+       background: #0083dc;
+       color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(2, 112, 183, 0.68));
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.25), 0 2px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 83, 138, .6), inset 0 0 0px 1px rgba(255,255,255,.15);
+}
+
+.button-positive:hover{
+background-color: #00a2ff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 135, 222, 0.68));
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.25), 0 2px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 83, 138, .6), inset 0 0 0px 1px rgba(255,255,255,.15);
+}
+.btn-primary{
+    border:none;
+    background: #0083dc;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(2, 112, 183, 0.68));
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.25), 0 2px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 83, 138, .6), inset 0 0 0px 1px rgba(255,255,255,.15);
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+    background-color: #00a2ff;
+}
+ 
+.button-danger{
+        background: #d20008;
+    color: #fff;
+    border: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(148, 0, 8));
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.25), 0 2px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgb(159, 0, 8), inset 0 0 0px 1px rgba(255,255,255,.15);
+}
+.btn-danger{
+        background: #d20008;
+    color: #fff;
+    border: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(148, 0, 8));
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.25), 0 2px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgb(159, 0, 8), inset 0 0 0px 1px rgba(255,255,255,.15);
+}
+
+.navbar-custom-menu i{
+        color: #ffffff;
+}
+.navbar-custom-menu a{
+        color: #FFFFFF;
+}
+
+.navbar-custom-menu .nav>li>a {
+    padding: 15px 12px;
+}
+.navbar-custom-menu .nav>li>a:hover, .navbar-custom-menu .nav>li>a:active, .navbar-custom-menu .nav>li>a:focus {
+    color: #fff;
+    background: #004c80;
+}
+
+
+.modal{
+	    z-index: 444444;
+}
+.modal-header{
+      background: #FBFBFB;
+	  padding: 10px 15px;
+}
+.user-block{
+    margin-bottom: 10px;	
+}
+
+.folder-wrap{
+    display: inline-block;
+    max-width: 150px;
+    padding: 8px;
+    border-radius: 3px;
+    background: #fff;
+    margin: 3px;
+    box-shadow: 0px 1px 0px #D8D8D8;
+}
+.folder-wrap .folder{
+    display: inline-block;
+    width: 100%;
+}
+.folder-wrap .folder i{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.folder-wrap .folder span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.folder-wrap .folder a{
+    color: #848484;
+}
+.usersli .img-avatar {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    overflow: hidden;
+}
